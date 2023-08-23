@@ -1,0 +1,40 @@
+import pyautogui
+import pyperclip
+
+pyautogui.sleep(5)
+print(pyautogui.position())
+print(pyautogui.position())
+print(pyautogui.position())
+print(pyautogui.position())
+pyautogui.sleep(4)
+pyautogui.sleep(4)
+
+emails = ['colegio.nobre2@ig.com.br', 'colegioorly@gmail.com', 'dp@colegiopentagono.com.br', 'saber@saberescola.com.br', 'COLEGIOVILALUZITA@BOL.COM.BR', 'colegiovivare@gmail.com', 'dp@colegioxingu.com.br', 'escolacooperativasbc@terra.com.br', 'camila.bianco@nucleocrerser.com.br', 'dptopessoal@esicolegiosaojose.com.br', 'ulisses@fapss.br', 'sueli.alves@uniesp.edu.br', 'sueli.alves@uniesp.edu.b', 'recursoshumanos@fatej.edu.br', 'deptopessoal@institutopoligono.com.br', 'secfundamental@maternaescola.com.br', 'patricia@colegiomoriah.com.br', 'maria.dp@unip.br', 'rh@externato.com.br', 'semeando@semeando.com.br', 'cidinha@singular.com.br', 'financeiro@colegiostagio.com.br', 'assistenteadm@unidadejardim.com.br', 'dpessoal@uscs.edu.br', 'nalva.evolucao@gmail.com', 'contato@allegraescola.com.br', 'alcyr.junior@colegioanhembimorumbi.com.br', 'amanda.santos@aesapar.com', 'mario.fava@arbos.com.br', 'secretariascs.rs@arbos.com.br', 'financeiro@colegioiesp.com.br', 'losane@bompastornet.com.br', 'atheneuceciliameirelles@ig.com.br', 'adriana@baraodemaua.com.br', 'obosque@obosque.com.br', 'caminhar@colegiocaminhar.com.br', 'secretaria@colegiocastroalves.com.br', 'diretor@eei-primeirospassos.com.br', 'colegiobasaobernardo@uol.com.br', 'colegiocristaokairos@gmail.com', 'diretoria@colegiodouradosbc.com', 'COLEGIOESTIMULO@HOTMAIL.COM', 'cimi@colegioimigrantes.com.br', 'falecom@integracaoescola.com.br', 'coordenacao@colegionobreabc.com.br', 'colegiovilaluzita@bol.com.br', 'direcao@colegioxingu.com.br', 'direcao@colegiosapiens.com.br', 'conceicao.barbosa@nucleocrerser.com.br', 'educati@educati.com.br', 'vania@colegioabaco.com.br', 'financeiro@cycleschool.com.br', 'ELIETE@ESCOLAPAULISTA.COM', 'escolavilainfante@hotmail.com', 'camila.bianco@nucleocrerser.com.br', 'irmacatarinascs@gmail.com', 'direcao@esicolegiosaojose.com.br', 'rh.unidade2@etip.com.br', 'roselifornazier@etip.com.br', 'horadeaprender@ig.com.br', 'horizontencantado@ig.com.br', 'COLEGIOIBIRACY@HOTMAIL.COM', 'eliane@fainam.edu.br', 'secretaria@idealsa.com.br', 'direcao@colegioleonor.com.br', 'liceu@liceudithiene.com.br', 'liceu@singular.com.br']
+
+for i in emails:
+
+    pyautogui.click(x=136, y=173)
+    pyautogui.sleep(1)
+    pyperclip.copy(i)
+    pyautogui.sleep(2)
+    pyautogui.hotkey("ctrl","v")
+    pyautogui.sleep(2)
+    pyautogui.press("enter")
+    pyautogui.sleep(2)
+    pyautogui.click(x=847, y=366)
+    pyautogui.sleep(2)
+    pyautogui.write("oportunidade")
+    pyautogui.sleep(2)
+    pyautogui.click(x=843, y=419)
+    pyautogui.sleep(2)
+    pyperclip.copy("O mundo já mudou!  Profissões serão extintas ou terão que se adaptar a esta nova realidade.  Aprender a programar é uma necessidade urgente para quem quer sobreviver às mudanças.  A oportunidade está aqui!")
+    pyautogui.sleep(2)
+    pyautogui.hotkey("ctrl","v")
+    pyautogui.sleep(2)
+    pyautogui.click(x=957, y=689)
+    pyautogui.sleep(2)
+    pyautogui.click(x=611, y=511)
+    pyautogui.sleep(2)
+    pyautogui.click(x=841, y=683)
+    pyautogui.sleep(3)
+
